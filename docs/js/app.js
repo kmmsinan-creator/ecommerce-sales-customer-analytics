@@ -1,3 +1,4 @@
+window.addEventListener('error', e => { const s = document.querySelector('#sub'); if (s) s.textContent = 'Script error: ' + e.message; });
 const $ = s => document.querySelector(s);
 const MN = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const ml = (m, p) => MN[+m.slice(5, 7) - 1] + ' ' + m.slice(2, 4) + (p ? '*' : '');
