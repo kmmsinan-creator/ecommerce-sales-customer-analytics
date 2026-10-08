@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E-Commerce Sales &amp; Customer Intelligence</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Where does revenue come from, who keeps buying, and what leaks away?</h1>
+  <p id="sub">Loading data…</p>
+  <nav>
+    <button data-t="overview" class="on">Overview</button>
+    <button data-t="customers">Customers</button>
+    <button data-t="products">Products</button>
+    <button data-t="markets">Markets</button>
+    <button data-t="quality">Cancellations &amp; data quality</button>
+  </nav>
+</header>
+<main>
+  <section id="overview"><div class="kpis"></div><div class="grid"></div></section>
+  <section id="customers" hidden><div class="grid"></div></section>
+  <section id="products" hidden><div class="grid"></div></section>
+  <section id="markets" hidden><div class="grid"></div></section>
+  <section id="quality" hidden><div class="grid"></div></section>
+</main>
+<footer id="foot"></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
