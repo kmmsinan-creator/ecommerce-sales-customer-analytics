@@ -147,4 +147,4 @@ Chen, D. *Online Retail* dataset, UCI Machine Learning Repository (https://archi
 
 ## Author
 
-Mohammad Sinan Koyam Moopa. Add your LinkedIn and email here.
+Mohammad Sinan Koyam Moopa.
